@@ -13,4 +13,13 @@ public class ProductService {
         myList.add(product);
         return myList;
     }
+
+    public List<Product> getALlProducts(){
+        return myList;
+    }
+
+    public  List<Product> deleteProduct(int id){
+        myList.remove(id);
+        return myList;
+    }
 }
